@@ -109,9 +109,6 @@ header nav ul li a{
     right: 50px;
 }
 
-.productos{
-    height: 78vh;
-}
 
 .productos h2{
     background-color: black;
@@ -149,6 +146,27 @@ header nav ul li a{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+
+.seccioncarrusel{
+    height: 65vh;
+}
+
+.slide{
+    height: 100%;
+}
+.carousel-inner{
+    height: 100%;
+}
+.carousel-item{
+    height: 100%;
+    width: 100%;
+}
+
+.img-carrusel{
+    height: 100%;
+    object-fit:cover;
 }
 
 .grid-galeria{
@@ -200,6 +218,9 @@ header nav ul li a{
     
 }
 
+.seccioncarrusel{
+    
+}
 
 
 
@@ -211,7 +232,21 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 32px;
+    
+    
 }
+
+.bodyfooter{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column; } 
+    
+    
+.footerbody{
+        margin-top: auto; 
+}
+    
+
 
 footer h2{
     font-size: 45px;
@@ -247,7 +282,7 @@ footer h2 span{
         border: 5px solid white;
         padding: 11px;
     }
-   
+
 }
 
 @media screen and (max-width:934px) {
