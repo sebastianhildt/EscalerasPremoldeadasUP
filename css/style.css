@@ -204,22 +204,39 @@ header nav ul li a{
     grid-row: span 2;
 }
 
+/*!-------------------NOSOTROS.HTML---------------*/
+.animate__animated{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding: 10px;
+    background-color: rgba(11, 7, 252, 0.74);
+    text-align: center;
+    
+}
+
+
+
+
+
+
+/*!-------------------SERVICIOS ADICIONALES.HTML---------------*/
+
 .servicios{
-    color: brown;
-    font-size: 50px;
+    
+    font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     text-align: center;
-}
-
-.formulario{
-    text-align: center;
-    color: rgb(5, 5, 139);
     
 }
 
-.seccioncarrusel{
-    
+
+/*!-------------------PREGUNTAS FRECUENTES.HTML---------------*/
+
+.container{
+    padding-bottom: 60px;
+    font-size: 50px;
 }
 
 
@@ -231,7 +248,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px;
+    padding: 15px;
     
     
 }
@@ -244,8 +261,7 @@ footer{
     
 .footerbody{
         margin-top: auto; 
-}
-    
+}  
 
 
 footer h2{
@@ -305,4 +321,66 @@ footer h2 span{
     }
     
     
+}
+
+@media screen and (max-width:689px){
+    h1{
+        font-size: 25px;
+    }
+    nav ul{
+        font-size: 16px;
+    }
+    .fundada h2{
+        font-size: 25px;
+    }
+    .fundada a{
+        font-size: 17px;
+    }
+    footer h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:673px) {
+    header nav ul li{
+        margin: 3px 6px 3px 6px;
+        font-size: 15px;
+    }
+
+    .whatsup{
+        display: none;
+    }
+}
+
+@media screen and (max-width:587px) {
+    header nav ul li{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:481px) {
+    .fundada h2{
+        font-size: 16px;
+    }
+    .fundada p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:459px){
+    footer h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:401px){
+    footer h2{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:371px) {
+    .fundada p{
+        font-size: 12px;
+    }
 }
