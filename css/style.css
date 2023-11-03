@@ -32,6 +32,25 @@ header nav ul li {
     margin: 5px 10px 5px 10px;
 }
 
+header nav ul {
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    
+}
+
+header nav ul li a:hover{
+    color: rgb(52, 114, 230);
+}
+
 
 h1 {
     color: rgb(52, 114, 230);
@@ -83,27 +102,24 @@ main {
 .fundada a {
     text-decoration: none;
     color: white;
-    background-color: blue;
+    background-color: cadetblue;
     font-size: 23px;
     padding: 10px;
+    margin-top: 20px;
+    transition: 1s;
 }
+
+.fundada a:hover{
+    transform: scale(1.1);
+}
+
 
 .fundada a:hover {
-    background-color: aqua;
+    background-color: rgb(52, 114, 230)
 
 }
 
-header nav ul {
-    list-style: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
 
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: white;
-}
 
 .whatsup {
     position: fixed;
@@ -182,7 +198,10 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 400px;
     gap: 15px;
+    transition: 1s;
 }
+
+
 
 .grid-galeria div {
     position: relative;
@@ -209,6 +228,14 @@ header nav ul li a {
 
 .img-12 {
     grid-row: span 2;
+}
+
+.whatsup{
+    transition: 1s;
+}
+
+.whatsup:hover{
+    transform: scale(1.1);
 }
 
 /*!-------------------CONTACTO.HTML---------------*/
@@ -518,7 +545,13 @@ footer h2 span {
 
 }
 
+footer div a img{
+    transition: 1s;
+}
 
+footer div a img:hover{
+    transform: scale(1.1);
+}
 
 
 /*!--------------------MEDIA QUERY----------------*/
