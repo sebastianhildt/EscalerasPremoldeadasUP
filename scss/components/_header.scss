@@ -1,0 +1,39 @@
+header{
+    background-color: black;
+    padding: 18px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    h1{
+        color:rgb(52, 114, 230);
+        font-size: 75px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic ;
+        font: weight 100px; ;
+        span{
+            color: cadetblue;
+
+        }
+    }
+}
+    nav{
+        ul{
+            list-style: none;
+            display: flex;
+            list-style: none;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            li{
+                margin: 5px 10px 5px 10px;
+                a{
+                    text-decoration: none;
+                    color: white;
+
+                }
+            }
+
+        }
+    }
