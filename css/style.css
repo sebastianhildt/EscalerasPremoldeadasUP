@@ -156,6 +156,8 @@ main {
     padding: 5px;
 }
 
+
+
 .productos div img {
     width: 250px;
     height: 200px;
@@ -169,6 +171,7 @@ main {
 
 .seccioncarrusel {
     margin-bottom: 30px;
+    
 }
 
 .seccioncarrusel {
@@ -200,6 +203,7 @@ main {
     grid-auto-rows: 400px;
     gap: 15px;
     transition: 1s;
+    background: black
 }
 
 
@@ -240,38 +244,31 @@ main {
 }
 
 /*!-------------------CONTACTO.HTML---------------*/
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
-    box-sizing: border-box;
-}
 
 .input-container {
     display: -ms-flexbox;
-    /* IE10 */
     display: flex;
     width: 100%;
     margin-bottom: 15px;
+    
 }
 
+
+
 .icon {
-    padding: 10px;
+    padding: 23px;
     background: dodgerblue;
     color: white;
-    min-width: 50px;
+    min-width: 80px;
     text-align: center;
+    
 }
 
 .input-field {
     width: 100%;
     padding: 10px;
-    outline: none;
+    outline-color:dodgerblue;
 }
-
-
-
 
 
 
@@ -295,31 +292,15 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition-property: ancho;
+    
 }
+
 
 input[type=submit]:hover {
-    background-color: dodgerblue;
+    width: 155px;
+    
 }
-
-
-.btn {
-    background-color: dodgerblue;
-    color: white;
-    padding: 15px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-
-}
-
-.btn:hover {
-    opacity: 1;
-}
-
-
-
-
 
 
 /*!-------------------NOSOTROS.HTML---------------*/
@@ -332,7 +313,6 @@ input[type=submit]:hover {
     text-align: center;
 
 }
-
 
 
 
