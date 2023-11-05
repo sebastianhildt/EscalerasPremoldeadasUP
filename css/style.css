@@ -249,17 +249,17 @@ main {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     
 }
 
 
 
 .icon {
-    padding: 23px;
+    padding: 25px;
     background: dodgerblue;
     color: white;
-    min-width: 80px;
+    min-width: 75px;
     text-align: center;
     
 }
@@ -304,17 +304,45 @@ input[type=submit]:hover {
 
 
 /*!-------------------NOSOTROS.HTML---------------*/
-.animate__animated {
-    font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
-    padding: 10px;
-    background-color: rgba(11, 7, 252, 0.74);
-    text-align: center;
 
+.nosotrosinfo{
+    background-image: url(../img/bg-registration-form-7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff; /* Color de texto en blanco para mayor contraste en el fondo */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 
+
+
+.sectionclass {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sectionclass section {
+    width: calc(32% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+
+h2 {
+    font-size: 24px;
+}
 
 
 
@@ -429,11 +457,7 @@ footer div a img:hover {
 
 }
 
-@media (max-width: 767px) {
-    .pepito {
-        font-size: 38px;
-    }
-}
+
 
 @media screen and (max-width:689px) {
     h1 {
