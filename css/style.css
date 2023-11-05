@@ -72,6 +72,11 @@ body {
 /*!--------------------MAIN----------------*/
 main {
     font-family: 'Gabarito', cursive;
+    
+}
+
+.fondo-negro {
+    background-color: black;
 }
 
 .fundada {
@@ -172,6 +177,11 @@ main {
 .seccioncarrusel {
     margin-bottom: 30px;
     
+}
+
+
+.seccioncarrusel {
+    background-color: black; 
 }
 
 .seccioncarrusel {
@@ -374,6 +384,7 @@ h2 {
 .accordion-body {
     font-size: 15px;
 }
+
 
 
 /*!--------------------FOOTER----------------*/
