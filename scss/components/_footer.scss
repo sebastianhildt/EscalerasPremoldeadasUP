@@ -8,4 +8,14 @@ footer{
         font-size: 45px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
-}
+    div{
+        a{
+            img{
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                }
+                }
+            }
+        }
+    }
