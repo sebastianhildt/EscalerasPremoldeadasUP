@@ -1,10 +1,15 @@
-footer{
+
+.footerbody{
     background-color: blanchedalmond;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
     h2{
+        span{
+            color: cadetblue;
+
+        }
         font-size: 45px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
