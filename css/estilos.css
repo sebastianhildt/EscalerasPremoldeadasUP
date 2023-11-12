@@ -33,7 +33,8 @@ nav ul {
     margin: 5px 10px 5px 10px; }
     nav ul li a {
       text-decoration: none;
-      color: white; }
+      color: white;
+      transition: 1s; }
 
 .fondo-negro {
   background-color: black; }
@@ -138,7 +139,8 @@ nav ul {
       background-color: rgba(46, 37, 37, 0.63);
       color: white;
       width: 100%;
-      padding: 10; }
+      padding: 10;
+      text-align: center; }
     .grid-galeria div img {
       width: 100%;
       height: 100%;
