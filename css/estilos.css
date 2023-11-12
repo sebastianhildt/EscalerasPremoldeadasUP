@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&display=swap");
+/*!--------------------RESET----------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: black;
+  padding: 18px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2; }
+  header h1 {
+    color: #3472e6;
+    font-size: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font: weight 100px; }
+    header h1 span {
+      color: cadetblue; }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  list-style: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic; }
+  nav ul li {
+    margin: 5px 10px 5px 10px; }
+    nav ul li a {
+      text-decoration: none;
+      color: white; }
+
+.fondo-negro {
+  background-color: black; }
+
+.fundada {
+  color: bisque;
+  width: 100%;
+  height: 750px;
+  background: linear-gradient(rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.507)), url("../img/fondo1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center; }
+  .fundada h2 {
+    font-size: 60px;
+    border: 5px solid white;
+    padding: 11px; }
+  .fundada p {
+    font-size: 25px;
+    margin: 10px; }
+  .fundada a {
+    text-decoration: none;
+    color: white;
+    background-color: cadetblue;
+    font-size: 23px;
+    padding: 10px;
+    margin-top: 20px;
+    transition: 1s; }
+    .fundada a:hover {
+      transform: scale(1.1);
+      background-color: #3472e6; }
+
+.whatsup {
+  position: fixed;
+  bottom: 130px;
+  right: 50px;
+  transition: 1s; }
+  .whatsup:hover {
+    transform: scale(1.1); }
+
+.productos h2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px; }
+
+.productos .productos-contenedor div {
+  border: 2px solid black;
+  width: 252px;
+  height: 350px;
+  margin: 20px;
+  text-align: center; }
+  .productos .productos-contenedor div h3 {
+    margin-bottom: 50px; }
+  .productos .productos-contenedor div a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px; }
+  .productos .productos-contenedor div img {
+    width: 250px;
+    height: 200px; }
+
+.productos-contenedor {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.seccioncarrusel {
+  margin-bottom: 30px;
+  background-color: black;
+  height: 65vh; }
+  .seccioncarrusel .slide {
+    height: 100%; }
+  .seccioncarrusel .carousel-inner {
+    height: 100%; }
+  .seccioncarrusel .carousel-item {
+    height: 100%;
+    width: 100%; }
+  .seccioncarrusel .img-carrusel {
+    height: 100%;
+    object-fit: cover; }
+
+.grid-galeria {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 400px;
+  gap: 15px;
+  transition: 1s;
+  background: black; }
+  .grid-galeria div {
+    position: relative; }
+    .grid-galeria div h3 {
+      position: absolute;
+      bottom: 0;
+      background-color: rgba(46, 37, 37, 0.63);
+      color: white;
+      width: 100%;
+      padding: 10; }
+    .grid-galeria div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .grid-galeria .img-4 {
+    grid-column: span 2; }
+  .grid-galeria .img-12 {
+    grid-row: span 2; }
+
+.footerbody {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px; }
+  .footerbody h2 {
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+    .footerbody h2 span {
+      color: cadetblue; }
+  .footerbody div a img {
+    transition: 1s; }
+    .footerbody div a img:hover {
+      transform: scale(1.1); }

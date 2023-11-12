@@ -487,6 +487,14 @@ footer div a img:hover {
 
 }
 
+
+@media screen and (max-width:1029px) {
+    .sectionclass section p{
+        font-size: 12px;
+    }
+}
+
+
 @media screen and (max-width:1017px) {
     iframe {
         max-width:580px;
@@ -524,6 +532,25 @@ footer div a img:hover {
     }
 
 
+}
+
+@media screen and (max-width:780px) {
+    .sectionclass h2{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .sectionclass {
+        grid-template-columns: 1fr; 
+        justify-content: center;
+    }
+
+    .sectionclass section {
+        width: 100%; 
+        margin: 10px;
+    }
 }
 
 
@@ -587,6 +614,17 @@ footer div a img:hover {
     }
 }
 
+@media screen and (max-width: 479px) {
+    .fundada h2 {
+        font-size: 20px; 
+    }
+
+    .fundada p {
+        font-size: 14px; 
+    }
+}
+
+
 @media screen and (max-width:475px){
     iframe{
         max-width: 250px;
@@ -594,7 +632,11 @@ footer div a img:hover {
     }
 } 
     
-
+@media screen and (max-width:470px){
+    .sectionclass h2{
+        font-size: 15px;
+    }
+}
 
 
 @media screen and (max-width:459px) {
