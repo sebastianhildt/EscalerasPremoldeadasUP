@@ -163,3 +163,125 @@ nav ul {
     transition: 1s; }
     .footerbody div a img:hover {
       transform: scale(1.1); }
+
+@media screen and (max-width: 1581px) {
+  header {
+    flex-direction: column; }
+    header nav ul li {
+      margin: 5px 10px 5px 10px; }
+    header h1 {
+      font-size: 75px; }
+      header h1 span {
+        color: cadetblue; } }
+
+@media screen and (max-width: 1455px) {
+  .grid-galeria div h3 {
+    font-size: 18px; } }
+
+@media screen and (max-width: 1100px) {
+  header h1 {
+    font-size: 40px; } }
+
+@media screen and (max-width: 1029px) {
+  .nosotrosinfo .sectionclass section p {
+    font-size: 12px; } }
+
+@media screen and (max-width: 1017px) {
+  iframe {
+    max-width: 580px; } }
+
+@media screen and (max-width: 939px) {
+  .fundada h2 {
+    font-size: 33px;
+    border: 5px solid white;
+    padding: 11px; }
+  .fundada p {
+    font-size: 17px; } }
+
+@media screen and (max-width: 934px) {
+  .fundada p {
+    font-size: 17px; } }
+
+@media screen and (max-width: 885px) {
+  .footerbody h2 {
+    font-size: 32px; } }
+
+@media screen and (max-width: 877px) {
+  .productos-contenedor {
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 780px) {
+  .sectionclass h2 {
+    font-size: 20px; } }
+
+@media screen and (max-width: 767px) {
+  .sectionclass {
+    grid-template-columns: 1fr;
+    justify-content: center; }
+    .sectionclass section {
+      width: 100%;
+      margin: 10px; } }
+
+@media screen and (max-width: 689px) {
+  header h1 {
+    font-size: 25px; } }
+
+nav ul {
+  font-size: 16px; }
+
+.fundada h2 {
+  font-size: 25px; }
+
+.fundada a {
+  font-size: 17px; }
+
+.footerbody h2 {
+  font-size: 25px; }
+
+@media screen and (max-width: 673px) {
+  header nav ul li {
+    margin: 3px 6px 3px 6px;
+    font-size: 15px; } }
+
+@media screen and (max-width: 672px) {
+  main .whatsup {
+    display: none; } }
+
+@media screen and (max-width: 665px) {
+  iframe {
+    max-width: 400px; } }
+
+@media screen and (max-width: 587px) {
+  header nav ul li {
+    font-size: 10px; } }
+
+@media screen and (max-width: 481px) {
+  main .fundada h2 {
+    font-size: 16px; } }
+
+@media screen and (max-width: 479px) {
+  main .fundada h2 {
+    font-size: 20px; }
+  main .fundada p {
+    font-size: 14px; } }
+
+@media screen and (max-width: 475px) {
+  iframe {
+    max-width: 250px;
+    max-height: 130px; } }
+
+@media screen and (max-width: 470px) {
+  .sectionclass h2 {
+    font-size: 15px; } }
+
+@media screen and (max-width: 459px) {
+  .footerbody h2 {
+    font-size: 15px; } }
+
+@media screen and (max-width: 401px) {
+  footer h2 {
+    font-size: 15px; } }
+
+@media screen and (max-width: 371px) {
+  .fundada p {
+    font-size: 12px; } }
