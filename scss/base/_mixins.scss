@@ -1,0 +1,10 @@
+@mixin flex($flex, $justify, $align) {
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+
+.fundada{
+    @include flex(flex, space-between, center);
+}

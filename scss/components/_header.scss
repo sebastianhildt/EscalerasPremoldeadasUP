@@ -3,9 +3,7 @@ header{
     padding: 18px;
     position: sticky;
     top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex(flex, space-between, center);
     z-index: 2;
     h1{
         color:$color-primario;
