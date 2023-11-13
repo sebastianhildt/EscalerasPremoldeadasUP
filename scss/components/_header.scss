@@ -8,13 +8,13 @@ header{
     align-items: center;
     z-index: 2;
     h1{
-        color:rgb(52, 114, 230);
-        font-size: 75px;
+        color:$color-primario;
+        font-size: nth($size, 4);
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: italic ;
         font: weight 100px; ;
         span{
-            color: cadetblue;
+            color: $color-secundario;
 
         }
     }

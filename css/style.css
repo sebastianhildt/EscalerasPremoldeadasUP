@@ -592,6 +592,13 @@ footer div a img:hover {
     }
 }
 
+@media screen and (max-width:672px){
+    .whatsup {
+        display: none;
+    }
+}
+
+
 
 @media screen and (max-width:665px) {
     iframe {
